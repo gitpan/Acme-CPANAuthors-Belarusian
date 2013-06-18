@@ -4,7 +4,7 @@
       "Sergey Romanov <sromanov@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.131560",
    "license" : [
       "artistic_2"
    ],
@@ -29,8 +29,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Acme::CPANAuthors" : "0.02",
-            "Test::More" : "0.47"
+            "Acme::CPANAuthors" : "0.02"
          }
       }
    },
@@ -46,5 +45,8 @@
          "url" : "http://github.com/sergeyromanov/acme-cpanauthors-belarusian"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02",
+   "x_test_requires" : {
+      "Test::More" : "0.47"
+   }
 }
